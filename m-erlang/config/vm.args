@@ -1,0 +1,15 @@
+-sname m_erlang
+
+-setcookie m_erlang_cookie
+
++K true
++A30
+
+## Disable Ctrl-C (prohibit shutdown of main Erlang process)
+##+Bi
+
+# Save crash dump in $HOME
+-env ERL_CRASH_DUMP {{crash_dump_dir}}/erl_crash.dump
+
+## Force shutdown after 15 seconds
+-shutdown_time 15000

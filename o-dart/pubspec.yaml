@@ -1,0 +1,8 @@
+name: dart_microservice
+description: A simple server
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  shelf: ^1.0.0
+  http: ^0.13.3

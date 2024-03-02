@@ -1,0 +1,17 @@
+{application, m_erlang,
+ [{description, "An Erlang application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {m_erlang_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {build_tools,["rebar3"]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.

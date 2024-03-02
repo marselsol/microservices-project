@@ -1,0 +1,169 @@
+version: '3.8'
+services:
+  test-service:
+    container_name: test-port-8888-app
+    build:
+      context: ./test-port-8888
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+      
+  java-service:
+    container_name: java-app
+    build:
+      context: ./a-java
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    
+  python-service:
+    container_name: python-app
+    build:
+      context: ./b-python
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+
+  kotlin-service:
+    container_name: kotlin-app
+    build:
+      context: ./c-kotlin
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+
+  javascript-service:
+    container_name: javascript-app
+    build:
+      context: ./d-javascript
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+      
+  csharp-service:
+    container_name: csharp-app
+    build:
+      context: ./e-csharp
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8084"
+      
+  php-service:
+    container_name: php-app
+    build:
+      context: ./f-php
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8085"
+      
+  ruby-service:
+    container_name: ruby-app
+    build:
+      context: ./g-ruby
+      dockerfile: Dockerfile
+    ports:
+      - "8086:8086"
+      
+  golang-service:
+    container_name: golang-app
+    build:
+      context: ./h-golang
+      dockerfile: Dockerfile
+    ports:
+      - "8087:8087"
+      
+  rust-service:
+    container_name: rust-app
+    build:
+      context: ./i-rust
+      dockerfile: Dockerfile
+    ports:
+      - "8088:8088"
+      
+  scala-service:
+    container_name: scala-app
+    build:
+      context: ./j-scala
+      dockerfile: Dockerfile
+    ports:
+      - "8089:8089"
+      
+  clojure-service:
+    container_name: clojure-app
+    build:
+      context: ./k-clojure
+      dockerfile: Dockerfile
+    ports:
+      - "8090:8090"
+      
+  haskell-service:
+    container_name: haskell-app
+    build:
+      context: ./l-haskell
+      dockerfile: Dockerfile
+    ports:
+      - "8091:8091"
+      
+  erlang-service:
+    container_name: erlang-app
+    build:
+      context: ./m-erlang
+      dockerfile: Dockerfile
+    ports:
+      - "8092:8092"
+      
+  swift-service:
+    container_name: swift-app
+    build:
+      context: ./n-swift
+      dockerfile: Dockerfile
+    ports:
+      - "8093:8093"
+      
+  dart-service:
+    container_name: dart-app
+    build:
+      context: ./o-dart
+      dockerfile: Dockerfile
+    ports:
+      - "8094:8094"
+      
+  cplusplus-service:
+    container_name: cplusplus-app
+    build:
+      context: ./p-cplusplus
+      dockerfile: Dockerfile
+    ports:
+      - "8095:8095"
+      
+  q-lisp:
+    container_name: lisp-app
+    build:
+      context: ./q-lisp
+      dockerfile: Dockerfile
+    ports:
+      - "8096:8096"
+      
+  c-service:
+    container_name: c-app
+    build:
+      context: ./r-c
+      dockerfile: Dockerfile
+    ports:
+      - "8097:8097"
+      
+  s-groovy:
+    container_name: groovy-app
+    build:
+      context: ./s-groovy
+      dockerfile: Dockerfile
+    ports:
+      - "8098:8098"
+      
+  crystal-service:
+    container_name: crystal-app
+    build:
+      context: ./t-crystal
+      dockerfile: Dockerfile
+    ports:
+      - "8099:8099"

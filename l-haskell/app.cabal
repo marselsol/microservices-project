@@ -1,0 +1,12 @@
+name:                app
+version:             0.1.0.0
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable app
+  main-is:             app.hs
+  build-depends:       base >= 4.7 && < 5,
+                       scotty,
+                       http-conduit,
+                       text
+  default-language:    GHC2021

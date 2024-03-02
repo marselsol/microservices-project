@@ -1,0 +1,14 @@
+{
+  "name": "d-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript version of the Kotlin microservice",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

@@ -42,7 +42,6 @@
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
         <plugins>
-            <!-- Add Scala Maven Plugin -->
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
@@ -56,7 +55,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

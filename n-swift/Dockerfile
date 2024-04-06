@@ -18,7 +18,7 @@ until [ "$n" -ge 5 ]\n\
 do\n\
    swift build -c release && break\n\
    n=$((n+1))\n\
-   echo "Попытка $n не удалась... попробуем снова через 5 секунд"\n\
+   echo "Attempt $n failed... will try again in 5 seconds"\n\
    sleep 5\n\
 done' > retry_build.sh && chmod +x retry_build.sh
 

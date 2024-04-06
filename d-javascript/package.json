@@ -1,7 +1,7 @@
 {
   "name": "d-javascript",
   "version": "1.0.0",
-  "description": "JavaScript version of the Kotlin microservice",
+  "description": "JavaScript",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js"
